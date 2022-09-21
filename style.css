@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&family=Tangerine:wght@400;700&display=swap');
+
+html,
+body {
+    background-color: #7C5F7D; 
+    height: 100vh;
+    font-family: 'Abril Fatface', cursive;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+} 
+
+/* HEADER */
+
+header {
+    background-color: white;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1500px;
+    height: 110px;
+    margin: auto;
+}
+header .container img{
+    height: 100px;
+}
+header nav ul{
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration:none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 30px;
+    transition: all 250ms linear 0s;
+}
+
+header nav ul li a:hover {
+    background: rgb(175, 141, 207);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+/* MAIN */
+
+main {
+    margin-bottom: 100px;
+}
+
+main .container-main {
+    background-color: #C2A6CA;
+    display:flex;
+    justify-content: center;
+    margin: 100px auto 100px auto;
+}
+
+main .container-main img {
+    display: flex;
+    max-width: 750px;
+    max-height: 1000px;
+    padding: 10px;
+}
+h2{
+    
+    max-width: 500px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+
+}
+
+h3{
+    max-width: 600px;
+    min-width: 700px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    font-size: 18px;
+    font-style: italic;
+    padding: 30px;
+    line-height: 35px;
+    
+}
+
